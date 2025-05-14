@@ -37,7 +37,7 @@ $logged_in = isset($_SESSION['user_id']); // Check if user is logged in
                 <a href="games.php" class="logo">Gaming Partners</a>
                 <ul class="nav-links">
                     <li><a href="games.php">Home</a></li>
-                    <li><a href="contact.html">Request Game/Questions</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
                     <li><a href="readme.html">Read Me</a></li>
                     <!-- <li><a href="profile.php">Profile</a></li> -->
                     <?php if (!$logged_in): ?>

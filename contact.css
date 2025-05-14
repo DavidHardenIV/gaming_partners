@@ -181,3 +181,29 @@ header .logo {
     background: #4A90E2;
     color: white;
 }
+
+.contact-form select {
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #333;
+    background-color: #121212 !important;
+    color: #e0e0e0 !important;
+    font-size: 1rem;
+    outline: none;
+    transition: border 0.3s ease;
+    appearance: none; /* Hides the default arrow */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url('data:image/svg+xml;utf8,<svg fill="white" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+    background-size: 16px 16px;
+    background-blend-mode: difference;
+}
+
+
+.contact-form select:focus {
+    border: 1px solid #4A90E2;
+}
+
